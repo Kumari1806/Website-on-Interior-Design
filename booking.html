@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule an Appointment | Your Interior Design Company</title>
+  <link rel="stylesheet" href="booking.css"> </head>
+<body>
+  <h1>Schedule a Free Consultation</h1>
+  <p>Let's discuss your dream Interior design!</p>
+  <form id="booking-form">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="project">Interior Description:</label>
+    <textarea id="project" name="Interior" rows="5" required></textarea>
+
+    <label for="date">Preferred Appointment Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Appointment Time:</label>
+    <select id="time" name="time" required>
+      <option value="">Select a Time</option>
+      <option value="9:00 AM">9:00 AM</option>
+      <option value="10:00 AM">10:00 AM</option>
+      <option value="11:00 AM">11:00 AM</option>
+      </select>
+
+    <button type="submit">Submit Appointment</button>
+  </form>
+  <p>**Note:** We will confirm your appointment via email within 24 hours.</p>
+</body>
+</html>
